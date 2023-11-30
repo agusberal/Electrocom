@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:  rgb(127, 127, 225);
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/11/HD-Backgrounds-Electronic.jpg);
+    background-repeat: none;
+    background-size: 100%;
+}
+
+h2{
+    font-size: 30px;
+}
+.login{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4%;
+    background-color:  #061e2a;
+    width: 32%;
+    padding: 5%;
+    text-align: center;
+    color: seashell;
+    border-radius: 10px;
+}
+
+.login .input{
+    padding: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-left: -15%;
+    width: 130%;   
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #155479;
+    outline: none;
+    /* color: #304e5d; */
+}
+
+
+.login h5{
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.login h5 a{
+    
+    /* display: grid;
+    text-align: center;
+    margin-top: 10px; */
+    font-size: 16px;
+    color: #0c435f;
+    
+}
+
+.login h5 a:hover{
+    color: rgb(117, 117, 181);
+}
+
+.login .btn1{
+    background-color: #061e2a;
+    font-size: 16px;
+    color: #304e5d;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold; 
+    border: none;
+    outline: none;
+}
+
+.login .btn1:hover{
+    background-color: #061e2a;
+    color: aliceblue;
+}
